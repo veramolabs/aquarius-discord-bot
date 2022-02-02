@@ -1,3 +1,16 @@
+## Sub community server setup
+
+- Create new Discord server
+- Server settings > Roles > Create Role
+  - name: member
+- Create text channel
+  - name: members-only
+  - Private Channel: true
+  - Roles:
+    - member
+- Invite bot (using invite url)
+- Server settings > Roles > Move bot's role to the top of the list
+
 ## Setup
 
 ### Verification agent dependencies
