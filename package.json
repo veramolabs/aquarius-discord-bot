@@ -4,24 +4,37 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/index"
+    "start": "ts-node src/index",
+    "register": "ts-node src/register-commands"
   },
   "devDependencies": {
     "@types/node": "^17.0.14"
   },
   "dependencies": {
+    "@discordjs/rest": "^0.3.0",
     "@veramo/core": "^3.1.0",
     "@veramo/credential-w3c": "^3.1.0",
+    "@veramo/data-store": "^3.1.0",
     "@veramo/did-jwt": "^3.1.0",
+    "@veramo/did-manager": "^3.1.0",
+    "@veramo/did-provider-ethr": "^3.1.0",
+    "@veramo/did-provider-web": "^3.1.0",
     "@veramo/did-resolver": "^3.1.0",
+    "@veramo/key-manager": "^3.1.0",
+    "@veramo/kms-local": "^3.1.0",
     "@veramo/message-handler": "^3.1.0",
     "@veramo/url-handler": "^3.1.0",
     "cross-fetch": "^3.1.5",
     "did-resolver": "^3.1.5",
+    "discord-api-types": "^0.26.1",
     "discord.js": "^13.6.0",
+    "dotenv": "^15.0.0",
     "ethr-did-resolver": "^5.0.4",
+    "sqlite3": "^5.0.2",
     "ts-node": "^10.4.0",
+    "typeorm": "0.2.38",
     "typescript": "^4.5.5",
+    "uuid": "^8.3.2",
     "web-did-resolver": "^2.0.12"
   }
 }

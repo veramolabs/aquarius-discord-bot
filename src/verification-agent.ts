@@ -26,11 +26,7 @@ export const verificationAgent = createAgent<IResolver & IMessageHandler>({
       }),
     }),
     new MessageHandler({
-      messageHandlers: [
-        new UrlMessageHandler(),
-        new JwtMessageHandler(),
-        new W3cMessageHandler(),
-      ],
+      messageHandlers: [new UrlMessageHandler(), new JwtMessageHandler(), new W3cMessageHandler()],
     }),
   ],
 })
